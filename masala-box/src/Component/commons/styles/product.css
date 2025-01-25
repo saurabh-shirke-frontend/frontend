@@ -1,0 +1,10 @@
+.product {
+    background-image: url('C:\Users\Saurabh Shirke\Desktop\MyCode\frontend\masala-box\src\Component\Images\loginPage.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}

@@ -1,0 +1,48 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: white; */
+    background-image: url('C:\Users\Saurabh Shirke\Desktop\MyCode\frontend\masala-box\src\Component\Images\loginPage.jpg');
+    background-size: cover;
+    color: brown;
+}
+
+.form-auth-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.btn-link {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color:brown;
+}
+
+label {
+    padding: 0.25rem 0;
+    text-align: left;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0.25rem 0;
+    border: none;
+}
+
+@media screen and (min-width : 600px) {
+    .form-auth-container {
+        margin: 0.5rem;
+        padding: 5rem;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}

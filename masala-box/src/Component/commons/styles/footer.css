@@ -1,0 +1,28 @@
+.footer {
+    background-color: black;
+    color: white; /* Ensure the text is visible on a dark background */
+    width: 100%; /* Set width to full screen */
+    display: flex;
+    justify-content: center; /* Space items evenly */
+    align-items: center;
+    height: 40vh;
+    padding: 1rem; /* Add padding inside the footer for spacing */
+    text-align: center; /* Center-align the text */
+    box-sizing: border-box; /* Ensures padding is included within the width */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .footer-item {
+    padding: 1rem 2rem; /* Add padding around each item */
+    /* border: 1px solid white; Optional: Add a border for visibility */
+    border-radius: 10px; 
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .footer-item:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    background-color: darkred; /* Change background color on hover */
+    color: white; /* Ensure text remains visible */
+    cursor: pointer; /* Add pointer cursor for interactivity */
+  }
+  
